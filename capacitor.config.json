@@ -1,0 +1,8 @@
+{
+  "appId": "com.instantusername.mobile",
+  "appName": "Instant Username Search",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "cordova": {}
+}
