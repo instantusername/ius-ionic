@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^1.3.0",
     "@capacitor/core": "1.3.0",
     "@ionic/react": "^4.11.0",
     "@ionic/react-router": "^4.11.0",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cap copy",
     "test": "jest --coverage --bail",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
